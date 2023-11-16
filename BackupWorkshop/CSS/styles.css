@@ -1,0 +1,431 @@
+@keyframes fadeIn {  
+  from {  
+      opacity:0;  
+  }  
+
+  to {  
+      opacity:1;  
+  }  
+}
+body, html {
+  height: 100%;
+}
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  background-position: center;
+}
+.HD {
+  background-image: url('../Image/HD.gif');
+}
+.CS {
+background-image: url('../Image/CS.gif');
+}
+.TB {
+  background-image: url('../Image/TB.gif');
+}
+.FV {
+  background-image: url('../Image/FV.gif');
+}
+.DG {
+  background-image: url('../Image/DG.gif');
+}
+.TKJ {
+  background-image: url('../Image/TKJ.gif');
+}
+.AP {
+  background-image: url('../Image/AP.gif');
+}
+.TSM {
+  background-image: url('../Image/TSM.gif');
+}
+h1 {
+    font-family: Courgette;
+    font-size: 35pt;
+    text-align: center;
+    text-indent: 2em;
+    color: rgb(0, 132, 255);
+            text-shadow: 2px 2px 1px rgb(0, 0, 0);
+}
+.textdi {
+  font-size: medium;
+}
+.buttonHD {
+  position: absolute;
+  margin: 250px auto;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+    width: 180px;
+    height: 50px;
+    cursor: pointer;
+    text-align: center;
+    background-color: white;
+    border-radius: 12px;
+  color: black;
+  border: 2px solid #e7e7e7;
+  transition-duration: 0.4s;
+  
+ 
+}
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+@font-face {
+  font-family: 'Lemon';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lemon/v17/HI_EiYEVKqRMq3jGQ5Q.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+.buttonHD:hover {
+  background-color: #057aff;
+}
+.buttondp:hover, .buttonpm:hover, .buttonprm:hover {
+  background-color: #fbff05;
+}
+.buttondaskam:hover, .buttonfdv:hover, .buttonmm:hover, .buttonmkfv:hover {
+  background-color: #ff0505;
+}
+.buttonjarkom:hover, .buttonhardsoft:hover , .buttonserver:hover, .buttonwebdev:hover {
+  background-color: #01d40b;
+}
+.buttonwi:hover, .buttonpi:hover , .buttonmc:hover, .buttonmkap:hover {
+  background-color: #ffc21c;
+}
+.buttonnrm:hover, .buttondm:hover , .buttondkv:hover, .buttonmkdg:hover {
+  background-color: #000000;
+}
+.buttonkm24:hover, .buttonlistrik:hover , .buttonservis:hover, .buttonmb:hover {
+  background-color: rgb(0, 80, 253);
+}
+a {
+  text-align: center;
+  color: black;
+  font-size: large;
+  font-family:"Lemon";
+  text-decoration: unset;
+}
+.button {
+    font-family: Lemon;
+    font-size: small ;
+    background: rgb(0, 114, 245);
+    color: white;
+    border: rgb(179, 179, 179) 0.5px solid;
+    border-radius: 0.5rem;
+    text-decoration:none;
+    display: block;
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+ul {
+  list-style: none;
+}
+.ulcs {
+  animation: fadeIn 50s cubic-bezier(1, -1.6, 1, 1);
+}
+.ulcs2 {
+  animation: fadeIn 5s cubic-bezier(0.4, 0, 1, 1);  
+}
+.ultb {
+  position: absolute;
+  margin: 250px auto;
+  left: 75%;
+  top: -5%;
+  transform: translate(-50%,-50%);
+  /* animation: fadeIn 45s cubic-bezier(1, -1.6, 1, 1); */
+}
+.ulfv {
+  position: absolute;
+  margin: 250px auto;
+  left: 15%;
+  top: 0%;
+  transform: translate(-50%,-50%);
+  animation: fadeIn 60s cubic-bezier(1, -1.6, 1, 1);
+
+}
+.ultkj {
+  position: absolute;
+  margin: 250px auto;
+  left: 23%;
+  top: -5%;
+  transform: translate(-50%,-50%);
+  animation: fadeIn 49s cubic-bezier(1, -1.6, 1, 1);
+
+}
+.ulap {
+  position: absolute;
+  margin: 250px auto;
+  left: 19%;
+  top: 2%;
+  transform: translate(-50%,-50%);
+  animation: fadeIn 52s cubic-bezier(1, -1.6, 1, 1);
+
+}
+.uldg {
+  position: absolute;
+  margin: 250px auto;
+  left: 16%;
+  top: -5%;
+  transform: translate(-50%,-50%);
+  animation: fadeIn 53s cubic-bezier(1, -1.6, 1, 1);
+
+}
+.ultsm {
+  position: absolute;
+  margin: 250px auto;
+  left: 13%;
+  top: -5%;
+  transform: translate(-50%,-50%);
+  animation: fadeIn 62s cubic-bezier(1, -1.6, 1, 1);
+
+}
+.ul {
+  position: absolute;
+  margin: 250px auto;
+  left: 23%;
+  top: -5%;
+  transform: translate(-50%,-50%);
+}
+.buttondg, .buttontb, .buttontkj, .buttontsm, .buttonfv, .buttonap {
+    display: block;
+    width: 250px;
+    padding: 5px;
+    font-family: 'Carter One';
+    text-align: center;
+    font-size: medium;
+}
+.buttondg {
+    background: #757579;
+    color: rgb(0, 0, 0);
+    border: rgb(0, 0, 0) 0.2rem solid;
+    border-radius: 0.5rem;
+    text-decoration:none;
+}
+.buttonnrm, .buttondm, .buttondkv, .buttonmkdg {
+  display: block;
+    width: 200px;
+    padding: 3px;
+    font-family: 'Carter One';
+    text-align: center;
+    font-size: small;
+    border-radius: 0.5rem;
+    text-decoration:none;
+    color: #f1f1f1; 
+    background-color: #888888;
+}
+.buttontb {
+    background: #fcf820;
+    color: rgb(0, 0, 0);
+    border: rgb(0, 0, 0) 0.2rem solid;
+    border-radius: 0.5rem;
+    text-decoration:none;
+}
+.buttondp, .buttonpm, .buttonprm {
+  display: block;
+    width: 200px;
+    padding: 3px;
+    font-family: 'Carter One';
+    text-align: center;
+    font-size: small;
+    border-radius: 0.5rem;
+    text-decoration:none;
+}
+.buttontkj {
+    background: #01d40b;
+    color: rgb(255, 255, 255);
+    border: rgb(5, 5, 5) 0.2rem solid;
+    border-radius: 0.5rem;
+    text-decoration:none;
+}
+.buttonjarkom, .buttonhardsoft, .buttonserver, .buttonwebdev {
+  display: block;
+    width: 200px;
+    padding: 3px;
+    font-family: 'Carter One';
+    text-align: center;
+    font-size: small;
+    border-radius: 0.5rem;
+    text-decoration:none;
+}
+.buttontsm {
+    background: rgb(0, 80, 253);
+    color: rgb(255, 255, 255);
+    border: rgb(0, 0, 0) 0.2rem solid;
+    border-radius: 0.5rem;
+    text-decoration:none;
+}
+.buttonkm24, .buttonlistrik, .buttonservis, .buttonmb {
+  display: block;
+    width: 200px;
+    padding: 3px;
+    font-family: 'Carter One';
+    text-align: center;
+    font-size: small;
+    border-radius: 0.5rem;
+    text-decoration:none;
+    color: #000000; 
+    background-color: #ffffffec;
+}
+.buttonfv {
+    background: #fc0303;
+    color: rgb(255, 255, 255);
+    border: rgb(0, 0, 0) 0.2rem solid;
+    border-radius: 0.5rem;
+    text-decoration:none;
+}
+.buttondaskam, .buttonfdv, .buttonmm, .buttonmkfv {
+  display: block;
+    width: 200px;
+    padding: 3px;
+    font-family: 'Carter One';
+    text-align: center;
+    font-size: small;
+    border-radius: 0.5rem;
+    text-decoration:none;
+}
+.buttonap {
+    background: #ffb62e;
+    color: rgb(0, 0, 0);
+    border: rgb(0, 0, 0) 0.2rem solid;
+    border-radius: 0.5rem;
+    text-decoration:none;
+}
+.buttonwi, .buttonpi, .buttonmc, .buttonmkap {
+  display: block;
+    width: 200px;
+    padding: 3px;
+    font-family: 'Carter One';
+    text-align: center;
+    font-size: small;
+    border-radius: 0.5rem;
+    text-decoration:none;
+}
+.typeWriter {
+  background-color: rgba(2, 2, 2, 0);
+  display: block;
+  height: 200px;
+  width: 70%;
+  position: absolute;
+  margin: 250px auto;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.typeWriterTb {
+  background-color: rgba(2, 2, 2, 0);
+  display: block;
+  height: 300px;
+  width: 24%;
+  position: absolute;
+  margin: 250px auto;
+  left: 54%;
+  top: 15%;
+  transform: translate(-50%,-50%);
+}
+.typeWriterFv {
+  background-color: rgba(2, 2, 2, 0);
+  display: block;
+  height: 300px;
+  width: 20%;
+  position: absolute;
+  margin: 250px auto;
+  left: 49.8%;
+  top: 8%;
+  transform: translate(-50%,-50%);
+}
+.typeWriterDg {
+  background-color: rgba(2, 2, 2, 0);
+  display: block;
+  height: 300px;
+  width: 27%;
+  position: absolute;
+  margin: 250px auto;
+  left: 39%;
+  top: 1%;
+  transform: translate(-50%,-50%);
+}
+.typeWriterTkj {
+  background-color: rgba(2, 2, 2, 0);
+  display: block;
+  height: 300px;
+  width: 24%;
+  position: absolute;
+  margin: 250px auto;
+  left: 46%;
+  top: 10%;
+  transform: translate(-50%,-50%);
+}
+.typeWriterAp {
+  background-color: rgba(2, 2, 2, 0);
+  display: block;
+  height: 300px;
+  width: 26%;
+  position: absolute;
+  margin: 250px auto;
+  left: 45%;
+  top: -3%;
+  transform: translate(-50%,-50%);
+}
+.typeWriterTsm {
+  background-color: rgba(2, 2, 2, 0);
+  display: block;
+  height: 300px;
+  width: 30%;
+  position: absolute;
+  margin: 250px auto;
+  left: 39%;
+  top: 7%;
+  transform: translate(-50%,-50%);
+}
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@font-face {
+  font-family: 'Courgette';
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/courgette/v17/wEO_EBrAnc9BLjLQAUk1VvoK.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+legend {
+  font-family: Courgette;
+  font-size: larger;
+  color: #000000;
+ 
+}
+fieldset {
+  background-color: #e7e7e79f;
+  border-radius: 5px;
+}
+.fieldsetTb, .fieldsetFv, .fieldsetTkj, .fieldsetAp, .fieldsetDg, .fieldsetTsm {
+  background-color: rgba(255, 255, 255, 0);
+  height: 165px;
+  border: 0 none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+  @font-face {
+    font-family: 'Carter One';
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/carterone/v17/q5uCsoe5IOB2-pXv9UcNExN8hA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+.console-container {
+  font-family:"Carter One";
+  font-size:10pt;
+  text-align:leaf;
+  letter-spacing: 3pt;
+}
+.console-underscore {
+   display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+}
+
+p {
+  text-align: justify;
+}

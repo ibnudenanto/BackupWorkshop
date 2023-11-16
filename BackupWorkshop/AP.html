@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Perkantoran</title>
+    <div id="button"><br><a href="index.html" class="button">Home</a> <a href="CSback.html" class="button">Back</a>
+    </div>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body class="AP">
+    <audio id="audiocs" hidden volume="0.1" autoplay loop>
+        <source src="music/theme.mp3" type="audio/mpeg">
+        Browsermu tidak mendukung tag audio
+      </audio>
+      <ul class="ulap">
+        <li><button class="buttonwi" onclick="typeWriterwi()">Web Instant</button></li><br>
+        <li><button class="buttonpi" onclick="typeWriterpi()">Pengenalan Internet</button></li><br>
+        <li><button class="buttonmc" onclick="typeWritermc()">Microsoft Office</button></li><br>
+        <li><button class="buttonmkap" onclick="typeWritermkap()">Menulis Kreatif</button></li><br>
+    </ul>
+    <div class="typeWriterAp">
+        <form action = "#" method = "get">
+               <fieldset class="fieldsetAp">
+                <p id="wi"></p>
+                <p id="pi"></p>
+                <p id="mc"></p>
+                <p id="mkap"></p>
+            </div>
+        </fieldset>
+        </form>
+      </div>
+    <div class="typeWriter">
+    <form action = "#" method = "get">
+        <fieldset>
+            <legend>Instruktur Aplikasi Perkantoran</legend>
+            <div><div class='console-container'><span id='text'></span><div class='console-underscore' id='console'>&#95;</div></div>
+        </div>
+        </fieldset>
+    </form>
+    </div>
+    <script src="JS/script ap.js"></script>
+    
+</body>
+</html>

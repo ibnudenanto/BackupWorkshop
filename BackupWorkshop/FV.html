@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotografi dan Videografi</title>
+    <div id="button"><br><a href="index.html" class="button">Home</a> <a href="CSback.html" class="button">Back</a>
+    </div>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/fadeIn.css">
+</head>
+<body class="FV">
+    <audio id="audiocs" hidden volume="0.1" autoplay loop>
+        <source src="music/normal2.mp3" type="audio/mpeg">
+        Browsermu tidak mendukung tag audio
+      </audio>
+      <ul class="ulfv">
+        <li><button class="buttondaskam" onclick="typeWriterdaskam()">Dasar-Dasar Kamera</button></li><br>
+        <li><button class="buttonfdv" onclick="typeWriterfdv()">Fotografi & Videografi</button></li><br>
+        <li><button class="buttonmm" onclick="typeWritermm()">Multimedia</button></li><br>
+        <li><button class="buttonmkfv" onclick="typeWritermkfv()">Menulis Kreatif</button></li><br>
+    </ul>
+    <div class="typeWriterFv">
+        <form action = "#" method = "get">
+               <fieldset class="fieldsetFv">
+                <div class="pdaskam"><p id="daskam"></p></div>
+                <p id="fdv"></p>
+                <p id="mm"></p>
+                <p id="mkfv"></p>
+        </fieldset>
+        </form>
+      </div>
+    <div class="typeWriter">
+        <form action = "#" method = "get">
+            <fieldset>
+                <legend>Instruktur Fotografi dan Videografi</legend>
+                <div><div class='console-container'><span id='text'></span><div class='console-underscore' id='console'>&#95;</div></div>
+            </div>
+            </fieldset>
+        </form>
+        </div>
+        <script src="JS/script fv.js"></script>
+</body>
+</html>

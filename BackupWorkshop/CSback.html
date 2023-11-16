@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Costumer Service</title>
+    <br><a href="index.html" class="button">Home</a><br><br>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/fadeIn.css">
+</head>
+<body class="CS">
+    <audio id="audiocs" hidden volume="0.1" autoplay loop>
+        <source src="music/town.mp3" type="audio/mpeg">
+        Browsermu tidak mendukung tag audio
+      </audio>
+    <ul class="ulcs2">
+        <li><a href="TB.html" class="buttontb">Tatabusana</a></li><br>
+        <li><a href="FV.html" class="buttonfv">Foto Video</a></li><br>
+        <li><a href="DG.html" class="buttondg">Desain Grafis</a></li><br>
+        <li><a href="TKJ.html" class="buttontkj">Teknik Komputer Jaringan</a></li><br>
+        <li><a href="AP.html" class="buttonap">Aplikasi Perkantoran</a></li><br>
+        <li><a href="TSM.html" class="buttontsm">Teknik Sepeda Motor</a></li><br>
+    </ul>
+    <div class="typeWriter">
+    <form action = "#" method = "get">
+        <fieldset>
+            <legend>Admin Rumah Gemilang Indonesia</legend>
+            <div><div class='console-container'><span id='text'></span><div class='console-underscore' id='console'>&#95;</div></div>
+        </div>
+        </fieldset>
+    </form>
+    </div>
+    <script src="JS/script.js"></script>
+    <script>
+        let audio = document.getElementById("audiocs");
+        
+        function setHalfVolume() { 
+          audio.volume = 0.2;
+        } 
+          
+        </script>
+</body>
+</html>
